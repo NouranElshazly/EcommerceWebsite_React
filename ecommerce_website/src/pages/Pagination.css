@@ -1,0 +1,44 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: 1px solid rgb(86, 2, 31);
+    border-radius: 5px;
+    color: rgb(209, 125, 152);
+    transition: 0.3s;
+}
+
+.pagination .active {
+    background-color:  rgb(125, 28, 74);
+    color: white;
+}
+
+.pagination .previous, .pagination .next {
+    font-weight: bold;
+    color: rgb(209, 125, 152) ;
+    background-color:  rgb(125, 28, 74);
+    
+}
+
+.pagination .disabled {
+    pointer-events: none;
+    opacity: 0.5;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(209, 125, 152) ;
+    
+}
